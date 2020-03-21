@@ -47,7 +47,7 @@
             this.showButton.Name = "showButton";
             this.showButton.Size = new System.Drawing.Size(153, 42);
             this.showButton.TabIndex = 1;
-            this.showButton.Text = "Show Hello World";
+            this.showButton.Text = "Show text";
             this.showButton.UseVisualStyleBackColor = true;
             this.showButton.Click += new System.EventHandler(this.showButton_Click);
             // 
@@ -76,10 +76,9 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.RichTextBox textField;
         private System.Windows.Forms.Button showButton;
         private System.Windows.Forms.Button openButton;
+        public System.Windows.Forms.RichTextBox textField;
     }
 }
 

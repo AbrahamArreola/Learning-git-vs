@@ -24,7 +24,9 @@ namespace LearningGit
 
         private void openButton_Click(object sender, EventArgs e)
         {
-
+            Form2 newWindow = new Form2();
+            AddOwnedForm(newWindow);
+            newWindow.ShowDialog();
         }
     }
 }
