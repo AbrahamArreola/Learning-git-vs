@@ -16,5 +16,15 @@ namespace LearningGit
         {
             InitializeComponent();
         }
+
+        private void showButton_Click(object sender, EventArgs e)
+        {
+            textField.Text = "Hello World";
+        }
+
+        private void openButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
