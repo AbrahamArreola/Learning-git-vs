@@ -20,7 +20,7 @@ namespace LearningGit
         private void showButton_Click(object sender, EventArgs e)
         {
             string msg = textField.Text;
-            textField.Text = msg;
+            textField.Text += msg;
         }
 
         private void openButton_Click(object sender, EventArgs e)
